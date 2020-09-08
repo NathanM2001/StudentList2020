@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     //array of app ideas
     String AppArray [] = {
-            "Fitness App(Click to learn more!)",
+            "Fitness App(Click to learn more!!)",
             "Countdown Timer",
             "Calorie Counter",
             "To-Do App",
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (appSelected == "Fitness App(Click to learn more!)") {
+        if (appSelected == "Fitness App(Click to learn more!!)") {
             // go to a new activity
             Context context = AppList.getContext();
             Intent intent = new Intent(context, AppInfo.class);
