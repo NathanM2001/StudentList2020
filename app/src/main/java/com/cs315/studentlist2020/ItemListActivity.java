@@ -59,7 +59,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         switch (position) {
             case 10:
                 // by specific index
-                Toast.makeText(this, personSelected + " likes to blackout", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " likes to chill", Toast.LENGTH_LONG).show();
                 break;
             default:
                 // every case that wasn't specifically called out

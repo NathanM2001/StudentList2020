@@ -8,19 +8,19 @@
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
-        android:layout_width="373dp"
-        android:layout_height="198dp"
+        android:layout_width="379dp"
+        android:layout_height="292dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        android:text="For this app, there are many different possibilities, a couple main ideas I had were
-          -   Custom Workouts for desired day\n-   Meal Plans\n-   Workouts you need to do, to hit your goal\n-   Calorie Counter\n
--   Cardio Running Route"
+        android:text="@string/for_this_app_there_are_many_different_possibilities_a_couple_main_ideas_i_had_were_custom_workouts_for_desired_day_n_meal_plans_n_workouts_you_need_to_do_to_hit_your_goal_n_calorie_counter_n_cardio_running_route"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:autofillHints="" />
 </androidx.constraintlayout.widget.ConstraintLayout>

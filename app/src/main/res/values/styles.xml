@@ -23,7 +23,7 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="MainTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <style name="MainTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/customcyan</item>
         <item name="colorPrimaryDark">@color/darkblue</item>
         <item name="colorAccent">@color/accentblue</item>
