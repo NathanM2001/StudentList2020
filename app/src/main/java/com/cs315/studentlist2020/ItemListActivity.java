@@ -47,6 +47,7 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         simpleList.setOnItemClickListener(this);  // set THIS class as the listener
     }
 
+
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
         // we got notified that something was selected!  AND we know WHICH ITEM was selected!
@@ -56,9 +57,9 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
 
         /** do something cool based on the INDEX (int) of the selected item **/
         switch (position) {
-            case 17:
+            case 10:
                 // by specific index
-                Toast.makeText(this, personSelected + " wrote some jank code!!", Toast.LENGTH_LONG).show();
+                Toast.makeText(this, personSelected + " likes to blackout", Toast.LENGTH_LONG).show();
                 break;
             default:
                 // every case that wasn't specifically called out
@@ -67,10 +68,10 @@ public class ItemListActivity extends AppCompatActivity implements AdapterView.O
         }
 
         /** do something cool based on the VALUE (string) of the selected item **/
-        if (personSelected == "Prof Tanner") {
+        if (personSelected == "Nathan McKenzie") {
             // go to a new activity
             Context context = simpleList.getContext();
-            Intent intent = new Intent(context, ProfTannerActivity.class);
+            Intent intent = new Intent(context, MainActivity.class);
             context.startActivity(intent);
         }
     }

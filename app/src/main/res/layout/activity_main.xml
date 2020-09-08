@@ -8,14 +8,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="137dp"
+        android:layout_height="124dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/rwt_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/legoprof" />
+        app:srcCompat="@drawable/acu_generic" />
 
     <TextView
         android:id="@+id/textView3"
@@ -24,7 +24,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/rwt_name"
+        android:text="@string/hottie"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -39,7 +39,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/rwt_title"
+        android:text="@string/info"
         android:textAlignment="viewStart"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
